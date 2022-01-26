@@ -1,0 +1,65 @@
+
+//-----HEADER------//
+
+header{
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    img{
+        width: 5%;
+    }
+    .hede{
+        margin-top: 20px;
+    }
+    .nav-link{
+        color: black;
+    }
+    .navbar{
+        border: solid #000000 1px;
+        border-radius: 10px;
+    }
+}
+
+
+//------ CARRUSEL ------//
+
+main{
+    .carousel-inner{
+        border-radius: 50px;
+        
+    }
+    
+    .carru{
+        height: 600px;
+        
+    }
+    
+    #carouselExampleCaptions{
+        margin-top: 100px;
+        margin-bottom: 200px;
+        width: 85%;
+    
+    }
+}
+
+
+//------ CARDS ------//
+
+main{
+    .card-group{
+        margin-top: 70px;
+        margin-bottom: 200px;
+        
+        
+    }
+    
+    .card-img-top{
+        height: 576px;
+        padding: 7px;
+    }
+     
+    body::-webkit-scroll-bar{
+        color: orange;
+    }
+    
+}
