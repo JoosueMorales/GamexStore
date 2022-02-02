@@ -43,3 +43,21 @@ main body::-webkit-scroll-bar {
     margin-top: 70px; }
   .lis {
     display: none; } }
+
+.icon{
+  padding-left: 10px;
+  font-size: 25px;
+
+  
+}
+ h5{
+   display: flex;
+   justify-content: center;
+  
+ }
+ .R1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+    
