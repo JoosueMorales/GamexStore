@@ -1,10 +1,10 @@
 //Varialbles
 @import "./variables/variables";
-
+@import "./variables/extend";
 
 
 
 // Todo archivo que no sea main debe llevar un _ y la extension .scss
 
 @import "./utilidades/index";
-@import "./utilidades/queries"
+@import "./utilidades/footer";

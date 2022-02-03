@@ -1,11 +1,23 @@
+.card-group p {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-style: oblique;
+  color: #515151; }
+
+.titulo2 {
+  background-color: #51515128;
+  padding: 30px; }
+
 header h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
 header img {
-  width: 5%; }
+  width: 4%;
+  margin-left: 30px; }
 
-header .hede {
-  margin-top: 20px; }
+header .heder {
+  margin-top: 30px;
+  margin-bottom: 30px; }
 
 header .nav-link {
   color: black; }
@@ -13,6 +25,13 @@ header .nav-link {
 header .navbar {
   border: solid #000000 1px;
   border-radius: 10px; }
+
+@media only screen and (max-width: 768px) and (min-width: 300px) {
+  header img {
+    width: 10%;
+    margin: 0; }
+  header .img {
+    flex-direction: column; } }
 
 main .carousel-inner {
   border-radius: 50px; }
@@ -25,8 +44,16 @@ main #carouselExampleCaptions {
   margin-bottom: 200px;
   width: 85%; }
 
+@media only screen and (max-width: 768px) and (min-width: 300px) {
+  .carousel {
+    display: none; }
+  .titulo {
+    margin-top: 70px; }
+  .lis {
+    display: none; } }
+
 main .card-group {
-  margin-top: 70px;
+  margin-top: 200px;
   margin-bottom: 200px; }
 
 main .card-img-top {
@@ -37,27 +64,41 @@ main body::-webkit-scroll-bar {
   color: orange; }
 
 @media only screen and (max-width: 768px) and (min-width: 300px) {
-  .carousel {
-    display: none; }
-  .titulo {
-    margin-top: 70px; }
-  .lis {
-    display: none; } }
+  .titulo2 {
+    background-color: white;
+    padding: 0;
+    margin: 0; }
+  main .card-group {
+    margin-top: 50px;
+    margin-bottom: 100px; } }
 
-.icon{
+footer h5 {
+  display: flex;
+  justify-content: center; }
+
+footer .R1 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+footer .nav {
+  display: flex;
+  justify-content: center; }
+
+footer .icon {
   padding-left: 10px;
-  font-size: 25px;
+  font-size: 25px; }
 
-  
-}
- h5{
-   display: flex;
-   justify-content: center;
-  
- }
- .R1{
-   display: flex;
-   justify-content: center;
-   align-items: center;
- }
-    
+@media only screen and (max-width: 768px) and (min-width: 300px) {
+  footer .R1 {
+    display: none; }
+  footer form {
+    width: 350px;
+    height: auto; }
+  footer .formContainer {
+    display: flex;
+    justify-content: center; } }
+
+.footerContainer {
+  padding: 0;
+  background-color: #EE6C4D; }
