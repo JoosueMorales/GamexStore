@@ -1,0 +1,8 @@
+*---- SEO ----*
+ 
+1.- Se cambio el idioma a español.
+2.- Se agrego la etiqueta (link) para agregar el icono.
+3.- Agregamos Keyworks ralacionadas a al pantalla de inicio.
+    (Novedades, gamers, juegos, diversion, amigos.)
+4.- Agregamos una descripcion relacionada a la pantalla de inicio.
+    (presentación y novedades de la web)
