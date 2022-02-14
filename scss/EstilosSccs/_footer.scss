@@ -16,7 +16,17 @@ footer{
     }
     .icon{
         padding-left: 10px;
-        font-size: 25px;
+        font-size: 35px;
+        color: #515151;
+      }
+      .botonsus{
+        color: white;
+            background-color: #ff822d;
+            border-color: #ff822d;
+      }
+      .botonsus:hover {
+        background-color: #515151;
+            border-color: #515151;
       }
     }
 

@@ -5,9 +5,10 @@
   color: #515151; }
 
 .titulo2 {
-  background-color: #ff812d;
+  background-color: #212529;
+  box-shadow: 1px 1px 14px 15px #0000005c;
   padding: 30px;
-  color: white;
+  color: #ffffff;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: 7px; }
 
@@ -16,11 +17,19 @@
   color: #0df053;
   background: #fff; }
 
+.headerPd {
+  padding: 0;
+  background-color: #212529; }
+
+.navPd {
+  padding: 10px;
+  padding-left: 50px; }
+
 main .carousel-inner {
   border-radius: 50px; }
 
 main .carru {
-  height: 600px; }
+  height: 650px; }
 
 main #carouselExampleCaptions {
   margin-top: 100px;
@@ -33,18 +42,18 @@ main #carouselExampleCaptions {
   .titulo {
     margin-top: 70px; }
   .lis {
-    display: none; } }
+    display: none; }
+  .navPd {
+    padding: 10px;
+    padding-left: 30px; } }
 
 main .card-group {
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 200px; }
 
-main .card-img-top {
+main .imgcard {
   height: 576px;
   padding: 7px; }
-
-main body::-webkit-scroll-bar {
-  color: orange; }
 
 .titulo2 h2 {
   font-size: 50px; }
@@ -74,46 +83,21 @@ main body::-webkit-scroll-bar {
   .titulo2 {
     background-color: white;
     padding: 0;
-    margin: 0; }
+    margin: 0;
+    box-shadow: none; }
     .titulo2 h2 {
       font-size: 30px;
       color: #515151;
       letter-spacing: 2px; }
   main .card-group {
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 100px; } }
-
-footer h5 {
-  display: flex;
-  justify-content: center; }
-
-footer .R1 {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-footer .nav {
-  display: flex;
-  justify-content: center; }
-
-footer .icon {
-  padding-left: 10px;
-  font-size: 25px; }
-
-@media only screen and (max-width: 768px) and (min-width: 300px) {
-  footer .R1 {
-    display: none; }
-  footer form {
-    width: 350px;
-    height: auto; }
-  footer .formContainer {
-    display: flex;
-    justify-content: center; } }
 
 header h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: 7px;
-  font-size: 70px; }
+  font-size: 70px;
+  color: white; }
 
 header img {
   width: 4%;
@@ -121,15 +105,8 @@ header img {
   margin-right: 30px; }
 
 header .heder {
-  margin-top: 30px;
-  margin-bottom: 30px; }
-
-header .nav-link {
-  color: black; }
-
-header .navbar {
-  border: solid #000000 1px;
-  border-radius: 10px; }
+  padding-top: 10px;
+  padding-bottom: 10px; }
 
 @media only screen and (max-width: 768px) and (min-width: 300px) {
   header img {
@@ -148,3 +125,151 @@ header .navbar .titulonav {
   color: #ff822d;
   font-size: 25px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+footer h5 {
+  display: flex;
+  justify-content: center; }
+
+footer .R1 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+footer .nav {
+  display: flex;
+  justify-content: center; }
+
+footer .icon {
+  padding-left: 10px;
+  font-size: 35px;
+  color: #515151; }
+
+footer .botonsus {
+  color: white;
+  background-color: #ff822d;
+  border-color: #ff822d; }
+
+footer .botonsus:hover {
+  background-color: #515151;
+  border-color: #515151; }
+
+@media only screen and (max-width: 768px) and (min-width: 300px) {
+  footer .R1 {
+    display: none; }
+  footer form {
+    width: 350px;
+    height: auto; }
+  footer .formContainer {
+    display: flex;
+    justify-content: center; } }
+
+/* CSS de Cards */
+.categoria {
+  margin-top: 200px; }
+  .categoria h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: #ff822d; }
+  .categoria li {
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: #515151; }
+
+.card {
+  margin-top: 100px; }
+
+main {
+  margin-bottom: 200px; }
+  main .card-img-top {
+    height: 300px; }
+  main .card-body .boton {
+    display: flex;
+    justify-content: center; }
+    main .card-body .boton .boton2 {
+      color: white;
+      background-color: #ff822d;
+      border-color: #ff822d; }
+  main .modal-footer .boton2 {
+    color: white;
+    background-color: #ff822d;
+    border-color: #ff822d; }
+
+.card {
+  box-shadow: 0 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: all 0.25s; }
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
+
+/* CSS de Cards */
+.categoria {
+  margin-top: 200px; }
+  .categoria h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: #ff822d; }
+  .categoria li {
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: #515151; }
+
+.card {
+  margin-top: 100px; }
+
+main {
+  margin-bottom: 200px; }
+  main .card-img-top {
+    height: 300px; }
+  main .card-body .boton {
+    display: flex;
+    justify-content: center; }
+    main .card-body .boton .boton2 {
+      color: white;
+      background-color: #ff822d;
+      border-color: #ff822d; }
+  main .modal-footer .boton2 {
+    color: white;
+    background-color: #ff822d;
+    border-color: #ff822d; }
+
+.card {
+  box-shadow: 0 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: all 0.25s; }
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
+
+.fondo {
+  background-image: url(/img/fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.formulario {
+  background: rgba(0, 0, 0, 0.63);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(105, 105, 105, 0.568);
+  color: white; }
+
+.ingre {
+  background: #ff822d;
+  padding: 10px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700 !important;
+  color: white;
+  width: 200px; }
+
+.formu {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px; }

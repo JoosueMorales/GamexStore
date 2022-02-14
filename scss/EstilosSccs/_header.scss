@@ -1,10 +1,12 @@
 //-----HEADER------//
 
 header{
+    
     h1{
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         letter-spacing: 7px;
         font-size: 70px;
+        color: white;
     }
     img{
         width: 4%;
@@ -12,16 +14,10 @@ header{
         margin-right: 30px
     }
     .heder{
-        margin-top: 30px;
-        margin-bottom: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
-    .nav-link{
-        color: black;
-    }
-    .navbar{
-        border: solid #000000 1px;
-        border-radius: 10px;
-    }
+    
 }
 
 @media only screen and (max-width: 768px) and (min-width: 300px){

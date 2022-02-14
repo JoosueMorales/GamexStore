@@ -1,5 +1,14 @@
 //------ CARRUSEL ------//
-
+.headerPd{
+    padding: 0;
+    background-color: #212529;
+}
+.navPd{
+    padding: 10px;
+    padding-left: 50px;
+    
+    
+}
 main{
     .carousel-inner{
         border-radius: 50px;
@@ -7,9 +16,11 @@ main{
     }
     
     .carru{
-        height: 600px;
+        height: 650px;
         
     }
+        
+        
     
     #carouselExampleCaptions{
         margin-top: 100px;
@@ -29,7 +40,10 @@ main{
     .lis{
         display: none;
         }
-        
+        .navPd{
+            padding: 10px;
+            padding-left: 30px;
+        }
 }
 
 
@@ -37,20 +51,18 @@ main{
 
 main{
     .card-group{
-        margin-top: 200px;
+        margin-top: 100px;
         margin-bottom: 200px;
         
         
     }
     
-    .card-img-top{
+    .imgcard{
         height: 576px;
         padding: 7px;
     }
      
-    body::-webkit-scroll-bar{
-        color: orange;
-    }
+    
     
 }
 
@@ -67,6 +79,7 @@ main{
     }
 }
 
+
 //BTN// 
 .btn-wsp{
     @include btn-style;
@@ -79,6 +92,9 @@ main{
     color: #0df053 ;
 }
     
+//
+
+//MEDIAS QUERIES //
         
 
 @media only screen and (max-width: 768px) and (min-width: 300px){
@@ -86,6 +102,7 @@ main{
         background-color: white;
         padding: 0;
         margin: 0;
+        box-shadow: none;
         h2{
             font-size: 30px;
             color: #515151 ;
@@ -95,7 +112,7 @@ main{
     
     main{
         .card-group{
-            margin-top: 50px;
+            margin-top: 10px;
             margin-bottom: 100px;
         }
     } 
