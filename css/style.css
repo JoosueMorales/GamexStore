@@ -53,7 +53,7 @@ main .card-group {
 
 main .imgcard {
   height: 576px;
-  padding: 7px; }
+  padding: 30px; }
 
 .titulo2 h2 {
   font-size: 50px; }
@@ -86,7 +86,7 @@ main .imgcard {
     margin: 0;
     box-shadow: none; }
     .titulo2 h2 {
-      font-size: 30px;
+      font-size: 25px;
       color: #515151;
       letter-spacing: 2px; }
   main .card-group {
@@ -177,13 +177,29 @@ footer .botonsus:hover {
     font-size: 25px;
     color: #515151; }
 
+@media only screen and (max-width: 768px) and (min-width: 300px) {
+  .lista {
+    display: none; }
+  .categoria {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #212529;
+    box-shadow: 0 0 30px rgba(105, 105, 105, 0.945); }
+    .categoria h4 {
+      color: #ffffff;
+      margin-top: 15px;
+      margin-bottom: 15px; } }
+
 .card {
   margin-top: 100px; }
 
 main {
   margin-bottom: 200px; }
   main .card-img-top {
-    height: 300px; }
+    height: 300px;
+    padding: 5px;
+    border-radius: 15px; }
   main .card-body .boton {
     display: flex;
     justify-content: center; }
@@ -199,56 +215,15 @@ main {
 .card {
   box-shadow: 0 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  transition: all 0.25s; }
-
-.card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
-
-/* CSS de Cards */
-.categoria {
-  margin-top: 200px; }
-  .categoria h4 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
-    letter-spacing: 3px;
-    color: #ff822d; }
-  .categoria li {
-    list-style: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
-    color: #515151; }
-
-.card {
-  margin-top: 100px; }
-
-main {
-  margin-bottom: 200px; }
-  main .card-img-top {
-    height: 300px; }
-  main .card-body .boton {
-    display: flex;
-    justify-content: center; }
-    main .card-body .boton .boton2 {
-      color: white;
-      background-color: #ff822d;
-      border-color: #ff822d; }
-  main .modal-footer .boton2 {
-    color: white;
-    background-color: #ff822d;
-    border-color: #ff822d; }
-
-.card {
-  box-shadow: 0 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  transition: all 0.25s; }
+  transition: all 0.25s;
+  border-radius: 10px; }
 
 .card:hover {
   transform: translateY(-10px);
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
 
 .fondo {
-  background-image: url(/img/fondo.png);
+  background-image: url(/img/fondo4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; }
@@ -273,3 +248,9 @@ main {
   display: flex;
   justify-content: center;
   margin-top: 50px; }
+
+@media only screen and (max-width: 768px) and (min-width: 300px) {
+  .formulario {
+    background: none;
+    padding: 50px;
+    box-shadow: none; } }

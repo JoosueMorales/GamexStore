@@ -1,5 +1,8 @@
 /* CSS de Cards */
 
+
+//Cateregorias//
+
 .categoria {
     margin-top: 200px;
     h4{
@@ -15,6 +18,28 @@
         color: #515151;
     }
 }
+//Queries de categoria//
+@media only screen and (max-width: 768px) and (min-width: 300px){
+    .lista{
+        display: none;
+    }
+    .categoria{
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        background-color: #212529;
+        box-shadow: 0 0 30px rgba(105, 105, 105, 0.945);
+        h4{
+            color: #ffffff;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            
+        }
+    }
+}
+
+
+//CARDS//
 
 .card {
     margin-top: 100px;
@@ -25,6 +50,8 @@ main {
 
     .card-img-top {
         height: 300px;
+        padding: 5px;
+        border-radius: 15px;
     }
 
     .card-body {
@@ -50,13 +77,11 @@ main {
     }
 }
 
-
-
-
 .card {
     box-shadow: 0 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     transition: all 0.25s;
+    border-radius: 10px;
 }
 
 .card:hover {
